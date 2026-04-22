@@ -6,7 +6,7 @@ A robust Python-based communication system that demonstrates the implementation 
 * **User Interfaces:** Includes both Command Line Interface (CLI) and Graphical User Interface (GUI) versions using `Tkinter`.
 * **Protocol Diversity:** Includes a basic UDP implementation for comparison between connection-oriented and connectionless protocols.
 
-## 📁 Project Structure
+##  Project Structure
 * `server.py` / `client.py`: Basic multi-threaded TCP chat.
 * `server_ssl.py` / `client_ssl.py`: Secure version of the chat system using SSL/TLS.
 * `server_gui.py` / `client_gui.py`: Interactive GUI version of the chat.
@@ -24,3 +24,4 @@ python client_ssl.py
 Bash
 python client_ssl.py
 🔒 Security Note
+The included server.key and cert.pem are self-signed certificates generated for testing and educational purposes only. In a production environment, certificates should be obtained from a trusted Certificate Authority (CA).
