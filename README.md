@@ -25,6 +25,8 @@ Bash
 python client_ssl.py
 🔒 Security Note
 The included server.key and cert.pem are self-signed certificates generated for testing and educational purposes only. In a production environment, certificates should be obtained from a trusted Certificate Authority (CA).
+## Authors
+
 ** waad sultan 
  Suad suod 
  Atheer Taleb
